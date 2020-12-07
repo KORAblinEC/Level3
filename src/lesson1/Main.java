@@ -36,7 +36,7 @@ public class Main {
         System.out.println("Box 1 equals box 3: "+orange1.compare(appple1));
         System.out.println("Box 2 equals box 4: "+orange2.compare(appple2));
         System.out.println("'f' - pourTo(): ");
-        orange1.pourTo(orange1);
+        orange1.pourTo(orange2);
         appple1.pourTo(appple2);
         System.out.println("'d' - getWeight(): ");
         System.out.println("Box 1: "+orange1.getWeight());
